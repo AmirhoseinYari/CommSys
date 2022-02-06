@@ -17,6 +17,7 @@ x2 = PulseShaping(b2,Shape,-Shape)
 fprintf('stopped, press Enter');
 pause;
 
-fs = 10000;
-fc = 1000;
-xc = AnalogMod(x1, x2, fs, fc)
+fs = 1000000;
+fc = 1000;% hshdijjjjsdjpf
+xc = AnalogMod(x1, x2, fs, fc) % hhgjhgkjgj
+
