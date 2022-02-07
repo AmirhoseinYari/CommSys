@@ -17,10 +17,10 @@ x2 = PulseShaping(b2,Shape,-Shape);
 fprintf('stopped, press Enter');
 pause;
 
-fs = 10000;
-fc = 1000;
+fs = 1000000;
+fc = 10000;
 xc = AnalogMod(x1, x2, fs, fc)
 fprintf('stopped, press Enter');
 pause;
 
-y = Channel(xc, fs, fc, 200);
+y = Channel(xc, fs, fc, 1000);
