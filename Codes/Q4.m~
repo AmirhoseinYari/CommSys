@@ -24,7 +24,7 @@ error = zeros(1,length(sigma));
 for j = 1:1:length(sigma)
     j
     N = 100;
-    d = randi([0 255],1,N);
+    a = randi([0 255],1,N);
     b = SourceGenerator(d);
     [b1, b2] = Divide(b);
     x1 = PulseShaping(b1,OneShape,ZeroShape);
@@ -38,8 +38,7 @@ for j = 1:1:length(sigma)
     [one1, zero1, b1_hat] = MatchedFilt(y1, OneShape, ZeroShape);
     [one2, zero2, b2_hat] = MatchedFilt(y2, OneShape, ZeroShape);
     b_hat = Combine(b1_hat,b2_hat);
-    d_hat = OutputDecoder(b_hat);
-    error(j) = sum((d_hat-d).^2)/N*100;
+    error(j) = sum(abs(b_hat-b))/N*100;
 end
 
 figure(1)

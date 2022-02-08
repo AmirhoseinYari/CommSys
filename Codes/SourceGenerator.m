@@ -1,6 +1,7 @@
 function b = SourceGenerator(d)
 N = length(d);
-b = zeros(1,8*N);
-
-
+b = [];
+for i = 1:1:N
+    b = [b,flip(de2bi(d(i),8))];
+end
 end
