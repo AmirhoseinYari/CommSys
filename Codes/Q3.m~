@@ -116,25 +116,23 @@ stem(b_hat)
 title('Recieved message, b-hat :')
 xlim([0 50])
 
-fprintf('no noise finished, press enter to continue.');
 pause;
+fprintf('no noise finished, press enter to continue.');
 
-%% AWGN for PAM
+% AWGN for PAM
 clc
 close all
 
-snr = 10:-10:-200;
+snr = 0:100:1000;
 error = zeros(1,length(snr));
 for i = 1:1:length(snr)
-    i
-    N = 100;
     b = randi([0 1],1,N);
     [b1, b2] = Divide(b);
     x1 = PulseShaping(b1,OneShape,ZeroShape);
     x2 = PulseShaping(b2,OneShape,ZeroShape);
     xc = AnalogMod(x1,x2,fs,fc);
     y = Channel(xc,fs,fc,BW);
-    y = awgn(y,snr(i));
+    y = awgn(y,snr(i))
     [y1, y2] = AnalogDemod(y,fs,BW,fc);
     [one1, zero1, b1_hat] = MatchedFilt(y1, OneShape, ZeroShape);
     [one2, zero2, b2_hat] = MatchedFilt(y2, OneShape, ZeroShape);
@@ -144,7 +142,7 @@ end
 
 figure(1)
 plot(snr,error)
-title('error over snr :')
+
 
 
 
