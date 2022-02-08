@@ -29,9 +29,8 @@ b_out = Combine(out1,out2);
 
 figure
 subplot(2,1,1)
-stem(o1(length(Shape):length(Shape):end))
-%stem(out1)
+plot(o1(1:length(OneShape):end))
 %xlim([0 100])
 subplot(2,1,2)
-stem(b1)
+stem(out1)
 %xlim([0 100])
