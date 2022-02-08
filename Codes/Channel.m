@@ -1,5 +1,5 @@
 function y = Channel(xc, fs, fc, BW)
-y = bandpass(xc,[fc-BW/2 fc+BW/2],fs);
+y = bandpass(xc,[fc-BW/2 fc+BW/2],fs,'Steepness',0.99);
 Xc = fftshift(fft(xc));
 Y = fftshift(fft(y));
 

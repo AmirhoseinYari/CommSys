@@ -1,0 +1,12 @@
+function [oneMatch, zeroMatch, b] = MatchedFilt(y, OneShape, ZeroShape)
+zeroMatch = conv(y,ZeroShape);
+oneMatch = conv(y,OneShape);
+N = length(y);
+L = length(OneShape);
+b = zeros(1,N/L);
+for i = 1:1:length(b)
+    if(oneMatch(i*L)>zeroMatch(i*L))
+        out(i) = 1;
+    end
+end
+end
