@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}توضیجات اولیه}{4}%
+\contentsline {section}{\numberline {2}پیاده سازی بلوک ها به صورت مجزا}{4}%
+\contentsline {subsection}{\numberline {2.1}\lr {Divide, Combine}}{4}%
+\contentsline {subsection}{\numberline {2.2}\lr {PulseShaping}}{4}%
+\contentsline {subsection}{\numberline {2.3}\lr {AnalogMod}}{4}%
+\contentsline {subsection}{\numberline {2.4}\lr {Channel}}{4}%
+\contentsline {subsection}{\numberline {2.5}\lr {AnalogDemod}}{4}%
+\contentsline {subsection}{\numberline {2.6}\lr {MatchedFilt}}{4}%
+\contentsline {section}{\numberline {3}انتقال دنباله تصادفی صفر و یک}{5}%
+\contentsline {subsection}{\numberline {3.1}\lr {PAM}}{5}%
+\contentsline {subsubsection}{\numberline {3.1.1}\lr {no Noise}}{5}%
+\contentsline {subsubsection}{\numberline {3.1.2}\lr {AWGN for PAM} }{8}%
+\contentsline {subsubsection}{\numberline {3.1.3}\lr {Scatter Plot}}{10}%
+\contentsline {subsection}{\numberline {3.2}\lr {PSK}}{11}%
+\contentsline {subsubsection}{\numberline {3.2.1}\lr {no Noise}}{11}%
+\contentsline {subsubsection}{\numberline {3.2.2}\lr {AWGN for PSK} }{14}%
+\contentsline {subsubsection}{\numberline {3.2.3}\lr {Scatter Plot}}{16}%
+\contentsline {subsection}{\numberline {3.3}\lr {FSK}}{17}%
+\contentsline {subsubsection}{\numberline {3.3.1}\lr {no Noise}}{17}%
+\contentsline {subsubsection}{\numberline {3.3.2}\lr {AWGN for FSK} }{20}%
+\contentsline {subsubsection}{\numberline {3.3.3}\lr {Scatter Plot}}{22}%
+\contentsline {subsection}{\numberline {3.4}برسی این سه حالت}{22}%
+\contentsline {section}{\numberline {4}انتقال دنباله ای از اعداد ۸ بیتی}{23}%
+\contentsline {subsection}{\numberline {4.1}توابع}{23}%
+\contentsline {subsection}{\numberline {4.2}AWGN}{23}%
+\contentsline {subsection}{\numberline {4.3}\lr {histogram}}{25}%
+\contentsline {subsection}{\numberline {4.4}روش تحلیلی}{26}%
+\contentsline {section}{\numberline {5}کدینگ منبع}{27}%
+\contentsline {subsection}{\numberline {5.1}برسی کد ها}{27}%
+\contentsline {subsection}{\numberline {5.2}کد های پیشوندی}{27}%
+\contentsline {subsection}{\numberline {5.3}کلمه کد ها}{27}%
+\contentsline {subsection}{\numberline {5.4}طول متوسط کلمه کد}{28}%
