@@ -1,7 +1,7 @@
 clc
 clear all
 close all
-
+% all for test
 b = randi([0 1],1,100);
 [b1,b2] = Divide(b);
 
