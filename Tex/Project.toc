@@ -30,3 +30,5 @@
 \contentsline {subsection}{\numberline {5.2}کد های پیشوندی}{27}%
 \contentsline {subsection}{\numberline {5.3}کلمه کد ها}{27}%
 \contentsline {subsection}{\numberline {5.4}طول متوسط کلمه کد}{28}%
+\contentsline {subsection}{\numberline {5.5}کد های این سه بخش}{28}%
+\contentsline {subsection}{\numberline {5.6}بخش اخر}{28}%

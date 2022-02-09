@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  9 FEB 2022 15:33
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  9 FEB 2022 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,11 +1197,11 @@ LaTeX Font Info:    Font shape `TU/XBZar(1)/bx/n' in size <7> not available
 LaTeX Font Info:    Font shape `TU/XBZar(1)/bx/n' in size <5> not available
 (Font)              Font shape `TU/XBZar(1)/b/n' tried instead on input line 3.
 
-)
+ [2])
 \tf@toc=\write7
 \openout7 = `Project.toc'.
 
- [2] [3] [4]
+ [3] [4]
 File: ../img/3.1.1.png Graphic file (type bmp)
 <../img/3.1.1.png>
 File: ../img/3.1.2.png Graphic file (type bmp)
@@ -1272,4 +1272,91 @@ File: ../img/3.2.6.png Graphic file (type bmp)
 <../img/3.2.6.png>
 File: ../img/3.2.7.png Graphic file (type bmp)
 <../img/3.2.7.png>
-File: ../img/3.2.8.png
+File: ../img/3.2.8.png Graphic file (type bmp)
+<../img/3.2.8.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]
+File: ../img/3.2.10.png Graphic file (type bmp)
+<../img/3.2.10.png>
+ [14]
+File: ../img/3.2.9.png Graphic file (type bmp)
+<../img/3.2.9.png>
+ [15]
+File: ../img/3.2.11.png Graphic file (type bmp)
+<../img/3.2.11.png>
+ [16]
+File: ../img/3.3.1.png Graphic file (type bmp)
+<../img/3.3.1.png>
+File: ../img/3.3.2.png Graphic file (type bmp)
+<../img/3.3.2.png>
+File: ../img/3.3.3.png Graphic file (type bmp)
+<../img/3.3.3.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../img/3.3.4.png Graphic file (type bmp)
+<../img/3.3.4.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+File: ../img/3.3.5.png Graphic file (type bmp)
+<../img/3.3.5.png>
+
+Overfull \vbox (20.21053pt too high) has occurred while \output is active []
+
+
+[18]
+File: ../img/3.3.6.png Graphic file (type bmp)
+<../img/3.3.6.png>
+File: ../img/3.3.7.png Graphic file (type bmp)
+<../img/3.3.7.png>
+File: ../img/3.3.8.png Graphic file (type bmp)
+<../img/3.3.8.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19]
+File: ../img/3.3.10.png Graphic file (type bmp)
+<../img/3.3.10.png>
+ [20]
+File: ../img/3.3.9.png Graphic file (type bmp)
+<../img/3.3.9.png>
+ [21]
+File: ../img/3.3.11.png Graphic file (type bmp)
+<../img/3.3.11.png>
+ [22]
+File: ../img/4.2.1.png Graphic file (type bmp)
+<../img/4.2.1.png>
+ [23]
+File: ../img/4.2.2.png Graphic file (type bmp)
+<../img/4.2.2.png>
+ [24]
+File: ../img/4.3.png Graphic file (type bmp)
+<../img/4.3.png>
+ [25]
+File: ../img/4.4.png Graphic file (type bmp)
+<../img/4.4.png>
+ [26]
+File: ../img/5.2.png Graphic file (type bmp)
+<../img/5.2.png>
+File: ../img/5.3.png Graphic file (type bmp)
+<../img/5.3.png>
+File: ../img/5.4.png Graphic file (type bmp)
+<../img/5.4.png>
+ [27] [28] (./Project.aux) ) 
+Here is how much of TeX's memory you used:
+ 19727 strings out of 479418
+ 422284 string characters out of 5884586
+ 735567 words of memory out of 5000000
+ 36694 multiletter control sequences out of 15000+600000
+ 539274 words of font info for 124 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 59i,8n,75p,2632b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Project.pdf (28 pages).
